@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.card-wrapper {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-wrapper {
+  height: 5rem;
+  width: 5rem;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
