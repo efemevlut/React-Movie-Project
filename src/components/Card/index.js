@@ -1,10 +1,10 @@
 import React from "react";
 import {StyledCardWrapper, StyledText} from "./Card.style"
 
-export const Card = () => {
+export const Card = ({title}) => {
     return (
         <StyledCardWrapper>
-            <StyledText>CARD</StyledText>
+            <StyledText>{title}</StyledText>
         </StyledCardWrapper>
     )
 }
