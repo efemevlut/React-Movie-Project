@@ -3,7 +3,7 @@ import {StyledCardWrapper, StyledText, StyledMovieImage} from "./Card.style"
 export const Card = ({title, imgSrc}) => {
     return (
         <StyledCardWrapper>
-            <StyledMovieImage src={imgSrc}/>
+            {imgSrc ? <StyledMovieImage src={imgSrc} alt={"Movie Poster"}/> : "No Image"}
             <StyledText>{title}</StyledText>
         </StyledCardWrapper>
     )
