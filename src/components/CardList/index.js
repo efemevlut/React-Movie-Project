@@ -10,7 +10,8 @@ export const CardList = () => {
       {movieList?.map((movie, index) => (
         <Card
           key={index}
-          title={movie.title}
+          title={movie?.title}
+          id={movie?.id}
           imgSrc={movie.poster_path ? baseImageUrl + movie.poster_path : null}
         />
       ))}
