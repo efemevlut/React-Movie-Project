@@ -8,7 +8,7 @@ function NavigationBar() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="https://www.imdb.com/" target="_blank">
           <img
             alt=""
             src={Icon}

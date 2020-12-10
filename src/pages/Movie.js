@@ -12,7 +12,7 @@ export const MovieContext= createContext();
 
 function Movie() {
   const [movieList, setMovieList] = useState([]);
-  const [searchKeyword, setSearchKeyword] = useState("");
+  const [searchKeyword, setSearchKeyword] = useState("Fast");
 
   useEffect(() => {
     axios
