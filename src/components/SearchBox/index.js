@@ -1,5 +1,5 @@
 import {useRef, useContext} from 'react';
-import {MovieContext} from '../../App';
+import {MovieContext} from '../../pages/Movie';
 import {StyledSearchBox, StyledSearchInput, StyledSearchButton} from "./SearchBox.style";
 
 export const SearchBox = () => {
@@ -8,7 +8,6 @@ export const SearchBox = () => {
     return (
         <StyledSearchBox>
            <StyledSearchInput ref={inputRef}/>
-           {console.log(inputRef)}
            <StyledSearchButton onClick={()=>setSearchKeyword(inputRef?.current?.value)}>Search</StyledSearchButton> 
         </StyledSearchBox>
     )
